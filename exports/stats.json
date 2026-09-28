@@ -1,0 +1,623 @@
+{
+  "total_reviews": 914,
+  "total_tagged": 914,
+  "overall_sentiment_by_source": [
+    {
+      "source": "app_store",
+      "sentiment": "negative",
+      "count": 3
+    },
+    {
+      "source": "app_store",
+      "sentiment": "positive",
+      "count": 47
+    },
+    {
+      "source": "google_play",
+      "sentiment": "negative",
+      "count": 231
+    },
+    {
+      "source": "google_play",
+      "sentiment": "neutral",
+      "count": 27
+    },
+    {
+      "source": "google_play",
+      "sentiment": "positive",
+      "count": 606
+    }
+  ],
+  "persona_counts": [
+    {
+      "persona": "diner",
+      "count": 870
+    },
+    {
+      "persona": "unknown",
+      "count": 42
+    },
+    {
+      "persona": "partner",
+      "count": 2
+    }
+  ],
+  "star_text_mismatches": 14,
+  "pain_themes": [
+    {
+      "aspect": "Delivery Time & Tracking",
+      "n": 106,
+      "avg_severity": 2.08,
+      "impact_score": 220.0
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "n": 56,
+      "avg_severity": 2.34,
+      "impact_score": 131.0
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "n": 74,
+      "avg_severity": 1.69,
+      "impact_score": 125.0
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "n": 28,
+      "avg_severity": 1.93,
+      "impact_score": 54.0
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "n": 26,
+      "avg_severity": 1.96,
+      "impact_score": 51.0
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "n": 24,
+      "avg_severity": 1.79,
+      "impact_score": 43.0
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "n": 14,
+      "avg_severity": 2.64,
+      "impact_score": 37.0
+    },
+    {
+      "aspect": "Order Accuracy",
+      "n": 20,
+      "avg_severity": 1.8,
+      "impact_score": 36.0
+    },
+    {
+      "aspect": "Competitive Comparison",
+      "n": 15,
+      "avg_severity": 1.43,
+      "impact_score": 21.4
+    },
+    {
+      "aspect": "Delivery Driver Conduct",
+      "n": 2,
+      "avg_severity": 2.5,
+      "impact_score": 5.0
+    }
+  ],
+  "pain_theme_trend": [
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2025-09",
+      "n": 5
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2025-10",
+      "n": 4
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2025-11",
+      "n": 3
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2025-12",
+      "n": 8
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-01",
+      "n": 7
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-02",
+      "n": 2
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-03",
+      "n": 15
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-04",
+      "n": 9
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-05",
+      "n": 10
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-07",
+      "n": 4
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-08",
+      "n": 6
+    },
+    {
+      "aspect": "App Reliability & Usability",
+      "month": "2026-09",
+      "n": 1
+    },
+    {
+      "aspect": "Competitive Comparison",
+      "month": "2025-09",
+      "n": 3
+    },
+    {
+      "aspect": "Competitive Comparison",
+      "month": "2025-11",
+      "n": 7
+    },
+    {
+      "aspect": "Competitive Comparison",
+      "month": "2026-03",
+      "n": 1
+    },
+    {
+      "aspect": "Competitive Comparison",
+      "month": "2026-04",
+      "n": 3
+    },
+    {
+      "aspect": "Competitive Comparison",
+      "month": "2026-09",
+      "n": 1
+    },
+    {
+      "aspect": "Delivery Driver Conduct",
+      "month": "2025-12",
+      "n": 1
+    },
+    {
+      "aspect": "Delivery Driver Conduct",
+      "month": "2026-04",
+      "n": 1
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2025-09",
+      "n": 2
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2025-10",
+      "n": 9
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2025-11",
+      "n": 18
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2025-12",
+      "n": 14
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-01",
+      "n": 12
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-02",
+      "n": 11
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-03",
+      "n": 17
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-04",
+      "n": 6
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-05",
+      "n": 4
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-06",
+      "n": 2
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-07",
+      "n": 1
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-08",
+      "n": 7
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "month": "2026-09",
+      "n": 3
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2025-09",
+      "n": 1
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2025-10",
+      "n": 3
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2025-11",
+      "n": 4
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2025-12",
+      "n": 5
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2026-01",
+      "n": 3
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2026-02",
+      "n": 2
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2026-03",
+      "n": 2
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2026-04",
+      "n": 2
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2026-06",
+      "n": 2
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2026-07",
+      "n": 1
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "month": "2026-09",
+      "n": 3
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2025-10",
+      "n": 3
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2025-11",
+      "n": 1
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2025-12",
+      "n": 3
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2026-01",
+      "n": 3
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2026-02",
+      "n": 4
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2026-03",
+      "n": 3
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2026-04",
+      "n": 1
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2026-06",
+      "n": 1
+    },
+    {
+      "aspect": "Order Accuracy",
+      "month": "2026-09",
+      "n": 1
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2025-10",
+      "n": 3
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2025-11",
+      "n": 4
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2025-12",
+      "n": 1
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2026-01",
+      "n": 1
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2026-02",
+      "n": 2
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2026-03",
+      "n": 5
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2026-04",
+      "n": 4
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2026-05",
+      "n": 1
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2026-07",
+      "n": 2
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "month": "2026-09",
+      "n": 3
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2025-09",
+      "n": 2
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2025-10",
+      "n": 3
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2025-11",
+      "n": 6
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2025-12",
+      "n": 2
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2026-01",
+      "n": 2
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2026-02",
+      "n": 1
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2026-03",
+      "n": 3
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2026-04",
+      "n": 2
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "month": "2026-05",
+      "n": 3
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2025-09",
+      "n": 1
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2025-10",
+      "n": 5
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2025-11",
+      "n": 6
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2025-12",
+      "n": 7
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-01",
+      "n": 5
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-02",
+      "n": 2
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-03",
+      "n": 6
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-04",
+      "n": 5
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-05",
+      "n": 6
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-06",
+      "n": 3
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-07",
+      "n": 4
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-08",
+      "n": 4
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "month": "2026-09",
+      "n": 2
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2025-09",
+      "n": 1
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2025-10",
+      "n": 1
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2026-02",
+      "n": 3
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2026-03",
+      "n": 1
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2026-04",
+      "n": 3
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2026-05",
+      "n": 1
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2026-06",
+      "n": 1
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2026-08",
+      "n": 2
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "month": "2026-09",
+      "n": 1
+    }
+  ],
+  "praise_themes": [
+    {
+      "aspect": "App Reliability & Usability",
+      "n": 285
+    },
+    {
+      "aspect": "Food Quality & Safety",
+      "n": 100
+    },
+    {
+      "aspect": "Pricing, Fees & Promotions",
+      "n": 69
+    },
+    {
+      "aspect": "Delivery Time & Tracking",
+      "n": 68
+    },
+    {
+      "aspect": "Competitive Comparison",
+      "n": 39
+    },
+    {
+      "aspect": "Refunds & Complaint Handling",
+      "n": 12
+    },
+    {
+      "aspect": "Delivery Driver Conduct",
+      "n": 10
+    },
+    {
+      "aspect": "Restaurant Listings & Trust",
+      "n": 5
+    },
+    {
+      "aspect": "Payments & Checkout",
+      "n": 5
+    },
+    {
+      "aspect": "Order Accuracy",
+      "n": 4
+    }
+  ],
+  "partner_overall_sentiment": [
+    {
+      "sentiment": "negative",
+      "count": 2
+    }
+  ]
+}

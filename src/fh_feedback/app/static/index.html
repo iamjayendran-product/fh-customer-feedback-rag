@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feedback Radar</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div class="app">
+    <header class="bar">
+      <div class="brand">
+        <h1>Feedback Radar<span class="dot">.</span></h1>
+      </div>
+      <div class="scope">914 UK reviews · <code>App Store</code> + <code>Google Play</code> · last 12 months · running locally via Claude Code</div>
+    </header>
+
+    <main class="thread" id="thread">
+      <div class="empty" id="empty-state">
+        <p>Ask anything about what Foodhub's UK customers said in the last 12 months. Every answer cites the real reviews it's drawn from &mdash; expand &ldquo;Sources&rdquo; under an answer to check them.</p>
+        <div class="chips" id="starters"></div>
+      </div>
+    </main>
+
+    <footer class="composer">
+      <textarea id="input" rows="1" placeholder="Ask a question&hellip;"></textarea>
+      <button id="send">Ask</button>
+    </footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2568 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/uk/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1238651638"
+          },
+          "name": {
+            "label": "mueid mir"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T18:00:59-07:00"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14582111312"
+        },
+        "title": {
+          "label": "Hamza RATHORE Ahmed"
+        },
+        "content": {
+          "label": "Amazing food, I can’t survive without karams",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1058140598"
+          },
+          "name": {
+            "label": "majorliv0"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T14:16:17-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14581530793"
+        },
+        "title": {
+          "label": "Review"
+        },
+        "content": {
+          "label": "Amazing service and always quick delivery from wherever i get my food from",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1386009329"
+          },
+          "name": {
+            "label": "FoodyGirl!!!"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T12:04:31-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14581166229"
+        },
+        "title": {
+          "label": "Amazing customer service"
+        },
+        "content": {
+          "label": "Had a few issues with one of the restaurants. Food was not good at all. Spoke with Foodhub via chat. Send them photos of the food and an explanation. Full refund credited to my Foodhub account within minutes. Really can’t fault Foodhub. Will be using them over other delivery apps in future.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id148567450"
+          },
+          "name": {
+            "label": "Kissa Me Ballbag"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T11:45:31-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14581109882"
+        },
+        "title": {
+          "label": "Yum Yum Pizza"
+        },
+        "content": {
+          "label": "As good as it always is…!!! Been comin here for sometime now never let me down & food is always gorgeous many many fanx CHRIS 👍",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1192643388"
+          },
+          "name": {
+            "label": "AnitaB27"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T11:31:40-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14581068421"
+        },
+        "title": {
+          "label": "Excellent"
+        },
+        "content": {
+          "label": "Only app I use now never any issues",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id486074072"
+          },
+          "name": {
+            "label": "bellabuddyflash"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T10:12:46-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14580829391"
+        },
+        "title": {
+          "label": "Efes"
+        },
+        "content": {
+          "label": "Fantastic service and great food  speedy delivery too 😜",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1869627917"
+          },
+          "name": {
+            "label": "Terrsci"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T09:42:56-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14580734545"
+        },
+        "title": {
+          "label": "Best of the best"
+        },
+        "content": {
+          "label": "Always friendly with awesome delicious banging burgers and perfect pizzas.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1198584292"
+          },
+          "name": {
+            "label": "ropbpob"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T08:59:27-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14580591842"
+        },
+        "title": {
+          "label": "Food"
+        },
+        "content": {
+          "label": "Nice food order all the time 😀",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id148039949"
+          },
+          "name": {
+            "label": "terrys2207"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T08:12:09-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14580433056"
+        },
+        "title": {
+          "label": "Food excellent"
+        },
+        "content": {
+          "label": "Excellent food x",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1422339864"
+          },
+          "name": {
+            "label": "Daavidh77"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-22T03:25:40-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14579524272"
+        },
+        "title": {
+          "label": "Impressed"
+        },
+        "content": {
+          "label": "Great food and early too!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id39219643"
+          },
+          "name": {
+            "label": "Frenchylady"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-21T11:24:29-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14577190764"
+        },
+        "title": {
+          "label": "Great - always great food"
+        },
+        "content": {
+          "label": "Food is always hot, tasty and a go to for takeaway",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id372135250"
+          },
+          "name": {
+            "label": "Can Dazz"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-21T09:01:09-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14576730587"
+        },
+        "title": {
+          "label": "Food hub"
+        },
+        "content": {
+          "label": "Love this app always deals Or discounts always check this app first now",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id309554504"
+          },
+          "name": {
+            "label": "alfie1951"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-21T08:54:15-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14576707715"
+        },
+        "title": {
+          "label": "Siam"
+        },
+        "content": {
+          "label": "Perfect as always",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1027271013"
+          },
+          "name": {
+            "label": "DreaMcd74"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-21T05:29:44-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14576026042"
+        },
+        "title": {
+          "label": "Review"
+        },
+        "content": {
+          "label": "Love Helz Kitchen, the homemade soup is amazing x",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id463026179"
+          },
+          "name": {
+            "label": "dadorail"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-20T13:56:25-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14573790275"
+        },
+        "title": {
+          "label": "Mr"
+        },
+        "content": {
+          "label": "Great service",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1404557495"
+          },
+          "name": {
+            "label": "KlaudiaF1999"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-20T13:07:14-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14573651025"
+        },
+        "title": {
+          "label": "No other compares! 😋"
+        },
+        "content": {
+          "label": "I have used foodhub for many many years. And I wouldn’t change my take away provider for anyone else! Hands down the best selection of take aways and most importantly the CHEAPEST. No ridiculous fees and delivery charges. Just cheap easy to use delicious food everytime and amazing customer service everytime! Thank you foodhub carry on what you’re doing cause you’re amazing!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id969779224"
+          },
+          "name": {
+            "label": "Moondog457"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-20T12:30:21-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14573540973"
+        },
+        "title": {
+          "label": "Tracking"
+        },
+        "content": {
+          "label": "The tracking should be better. Between cooking and delivered there should be a section saying on the way",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id152309396"
+          },
+          "name": {
+            "label": "Thekid555"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-20T09:45:53-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14572999765"
+        },
+        "title": {
+          "label": "Good App"
+        },
+        "content": {
+          "label": "East to use app",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id504050384"
+          },
+          "name": {
+            "label": "Iglesias Piggle"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T15:01:29-07:00"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569947034"
+        },
+        "title": {
+          "label": "The Don"
+        },
+        "content": {
+          "label": "The Shiz",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1659753543"
+          },
+          "name": {
+            "label": "Justin pesta"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T14:18:58-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569837706"
+        },
+        "title": {
+          "label": "Grill house pelton"
+        },
+        "content": {
+          "label": "Great staff and amazing food definitely recommend",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id101568174"
+          },
+          "name": {
+            "label": "Danny5140"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T12:13:24-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569482825"
+        },
+        "title": {
+          "label": "Food hub easy."
+        },
+        "content": {
+          "label": "Fast and easy order.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1616859448"
+          },
+          "name": {
+            "label": "Biglad37"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T12:00:49-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569444038"
+        },
+        "title": {
+          "label": "Better than just eat easy"
+        },
+        "content": {
+          "label": "So easy to use! No rip off fees like just eat! Foodhub is king.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id714797605"
+          },
+          "name": {
+            "label": "cheezy bottom"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T11:20:38-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569319179"
+        },
+        "title": {
+          "label": "Order"
+        },
+        "content": {
+          "label": "Easy to use",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id471491746"
+          },
+          "name": {
+            "label": "Rachelm444"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T11:15:41-07:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569303401"
+        },
+        "title": {
+          "label": "DO NOT USE"
+        },
+        "content": {
+          "label": "Shocking service, 2 orders in a row only because they would refund the first one with a Foodhub coupon. 1st one I received a half eaten kebab 2 hours late. 2nd I never received what I ordered and spent 3 hours to get a resolution as Foodhub take no responsibility and tell you to contact the store who have no control and you just go round in circles trying to get your money back",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1129536060"
+          },
+          "name": {
+            "label": "jodiemart"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T11:00:40-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569254958"
+        },
+        "title": {
+          "label": "Best pizza"
+        },
+        "content": {
+          "label": "Best pizza in town!! ⭐️⭐️⭐️⭐️⭐️",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id678362708"
+          },
+          "name": {
+            "label": "blodyn pert"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T10:57:18-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569243888"
+        },
+        "title": {
+          "label": "Easy as chips"
+        },
+        "content": {
+          "label": "Order done and ready in 15 minutes good service will recommend",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id131062511"
+          },
+          "name": {
+            "label": "AndiS.."
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T10:35:39-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569173729"
+        },
+        "title": {
+          "label": "Amazing"
+        },
+        "content": {
+          "label": "Always amazing quality good violes from scratch",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id137602477"
+          },
+          "name": {
+            "label": "BAzer7"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T10:00:17-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14569055385"
+        },
+        "title": {
+          "label": "Simple to use"
+        },
+        "content": {
+          "label": "A good app clear and easy to use with a good list of options",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id112388170"
+          },
+          "name": {
+            "label": "Rob8687"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-19T09:11:38-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14568888568"
+        },
+        "title": {
+          "label": "Red Chilli"
+        },
+        "content": {
+          "label": "So easy to order , and good prices",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id258967036"
+          },
+          "name": {
+            "label": "Stefflou1048"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T13:59:41-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14565724375"
+        },
+        "title": {
+          "label": "So easy to use"
+        },
+        "content": {
+          "label": "Amazingly easy to use",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id29140167"
+          },
+          "name": {
+            "label": "Fliss"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T11:28:25-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14565292376"
+        },
+        "title": {
+          "label": "Excellent app"
+        },
+        "content": {
+          "label": "Excellent app, easy to use and a wide range of takeaways!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id477124011"
+          },
+          "name": {
+            "label": "BigNoWhere17"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T11:26:51-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14565287544"
+        },
+        "title": {
+          "label": "Very convenient"
+        },
+        "content": {
+          "label": "No problems so far.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1737848995"
+          },
+          "name": {
+            "label": "Mike2026??"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T10:34:29-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14565126132"
+        },
+        "title": {
+          "label": "Unique"
+        },
+        "content": {
+          "label": "Very good food sound quick delivery",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id415832764"
+          },
+          "name": {
+            "label": "Debbie Exley"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T10:34:14-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14565125331"
+        },
+        "title": {
+          "label": "Good"
+        },
+        "content": {
+          "label": "Very nice",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id753541996"
+          },
+          "name": {
+            "label": "Rd331992"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T10:16:07-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14565068366"
+        },
+        "title": {
+          "label": "Tasty Mac’s"
+        },
+        "content": {
+          "label": "Fab!!!!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id962402810"
+          },
+          "name": {
+            "label": "bennygirl224"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T09:29:47-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14564916425"
+        },
+        "title": {
+          "label": "Missing food"
+        },
+        "content": {
+          "label": "Cold food too",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1061790590"
+          },
+          "name": {
+            "label": "hostilebuddah"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T09:20:11-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14564884614"
+        },
+        "title": {
+          "label": "A lot better than just eat"
+        },
+        "content": {
+          "label": "100% better",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id466888352"
+          },
+          "name": {
+            "label": "NanaWales"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T07:41:31-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14564539149"
+        },
+        "title": {
+          "label": "Great quality food and plenty of it 👍🏻👍🏻👍🏻"
+        },
+        "content": {
+          "label": "Using Foodhub guarantees you get great service with food arriving within a set time and it is always fresh and piping hot. Well worth using the app 👍🏻 Staff and drivers are very helpful and friendly. You even get a text a few minutes before the food is delivered",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1515185822"
+          },
+          "name": {
+            "label": "Dragon 90909"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-18T05:47:21-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14564139620"
+        },
+        "title": {
+          "label": "Dinner"
+        },
+        "content": {
+          "label": "Always enjoy",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id727785573"
+          },
+          "name": {
+            "label": "TheOne00007"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-17T12:36:47-07:00"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14561589152"
+        },
+        "title": {
+          "label": "Very good"
+        },
+        "content": {
+          "label": "Very good",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id573201028"
+          },
+          "name": {
+            "label": "Nivekrotciv"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-17T12:36:43-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14561588971"
+        },
+        "title": {
+          "label": "Mr Kevin Hawkins"
+        },
+        "content": {
+          "label": "Easy to order on line. Now just waiting to eat my beef burger with chicken strips and chips for my dogs.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id634029760"
+          },
+          "name": {
+            "label": "gaz16"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-17T12:22:28-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14561548157"
+        },
+        "title": {
+          "label": "Excellent"
+        },
+        "content": {
+          "label": "Excellent service as always",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id549622441"
+          },
+          "name": {
+            "label": "Hidden Slug"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-17T11:12:43-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14561341463"
+        },
+        "title": {
+          "label": "Easy"
+        },
+        "content": {
+          "label": "Good food, no hassle",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id39158355"
+          },
+          "name": {
+            "label": "Jagjitg"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-17T10:36:56-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14561231073"
+        },
+        "title": {
+          "label": "Best Chinese"
+        },
+        "content": {
+          "label": "Lee’s Kitchen is the best Chinese kitchen in Bedford, always excellent tasing food customised to requirements as necessary",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id474934123"
+          },
+          "name": {
+            "label": "Fionabax"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-17T09:44:53-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14561065347"
+        },
+        "title": {
+          "label": "Always delicious"
+        },
+        "content": {
+          "label": "Food always arrives boiling hot and delicious 😁",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1275660645"
+          },
+          "name": {
+            "label": "S.ttom"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-16T15:36:50-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14558217149"
+        },
+        "title": {
+          "label": "H"
+        },
+        "content": {
+          "label": "5 stars",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id491922316"
+          },
+          "name": {
+            "label": "qqqpdncnsbb"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-16T10:08:23-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14557287188"
+        },
+        "title": {
+          "label": "Food"
+        },
+        "content": {
+          "label": "Excellent service lovely food a lovely fresh salad. There kabab’ are there are delicious",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1704606931"
+          },
+          "name": {
+            "label": "Wagonwheel64"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-16T09:49:00-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14557224446"
+        },
+        "title": {
+          "label": "Food"
+        },
+        "content": {
+          "label": "Great app got all the best local takeaways and apps easy to use",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id105639577"
+          },
+          "name": {
+            "label": "nannytoesme"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-16T09:43:20-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14557205745"
+        },
+        "title": {
+          "label": "Always good"
+        },
+        "content": {
+          "label": "Always good and on time.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/gb/reviews/id1696184134"
+          },
+          "name": {
+            "label": "Longwanders"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-09-16T09:20:05-07:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "12.8"
+        },
+        "id": {
+          "label": "14557128997"
+        },
+        "title": {
+          "label": "The steeple chippy"
+        },
+        "content": {
+          "label": "Awesome as always",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/gb/review?id=1201845916&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      }
+    ],
+    "updated": {
+      "label": "2026-09-24T04:15:50-07:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store: Customer Reviews"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=gb&id=130"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1201845916/sortby=mostrecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "first",
+          "href": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1201845916/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=1201845916/sortby=mostrecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "last",
+          "href": "https://itunes.apple.com/gb/rss/customerreviews/page=10/id=1201845916/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=1201845916/sortby=mostrecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "previous",
+          "href": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1201845916/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=1201845916/sortby=mostrecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "next",
+          "href": "https://itunes.apple.com/gb/rss/customerreviews/page=2/id=1201845916/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=1201845916/sortby=mostrecent/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1201845916/sortby=mostrecent/json"
+    }
+  }
+}

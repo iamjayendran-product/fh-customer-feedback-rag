@@ -1,0 +1,1470 @@
+[
+  {
+    "review_id": "app_store:14557128997",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14557205745",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Always good and on time."
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14557224446",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "apps easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14557287188",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "lovely fresh salad. There kabab’ are there are delicious"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14558217149",
+    "is_foodhub": true,
+    "persona": "unknown",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14561065347",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Food always arrives boiling hot and delicious"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14561231073",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "always excellent tasing food"
+      },
+      {
+        "aspect": "Order Accuracy",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "customised to requirements as necessary"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14561341463",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Good food, no hassle"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14561548157",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14561588971",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Easy to order on line"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14561589152",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14564139620",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14564539149",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "food arriving within a set time"
+      },
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "always fresh and piping hot"
+      },
+      {
+        "aspect": "Delivery Driver Conduct",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Staff and drivers are very helpful and friendly"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14564884614",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Competitive Comparison",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "100% better"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14564916425",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": true,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "Cold food too"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14565068366",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14565125331",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14565126132",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Very good food"
+      },
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "sound quick delivery"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14565287544",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14565292376",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to use and a wide range of takeaways"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14565724375",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Amazingly easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14568888568",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "So easy to order"
+      },
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "good prices"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569055385",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "clear and easy to use with a good list of options"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569173729",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Always amazing quality good violes from scratch"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569243888",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Order done and ready in 15 minutes"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569254958",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Best pizza in town!!"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569303401",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "I received a half eaten kebab 2 hours late"
+      },
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "2 hours late"
+      },
+      {
+        "aspect": "Order Accuracy",
+        "sentiment": "negative",
+        "severity": 3,
+        "evidence_quote": "2nd I never received what I ordered"
+      },
+      {
+        "aspect": "Refunds & Complaint Handling",
+        "sentiment": "negative",
+        "severity": 3,
+        "evidence_quote": "Foodhub take no responsibility and tell you to contact the store who have no control and you just go round in circles trying to get your money back"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569319179",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569444038",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "So easy to use"
+      },
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "No rip off fees like just eat"
+      },
+      {
+        "aspect": "Competitive Comparison",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "No rip off fees like just eat! Foodhub is king"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569482825",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Fast and easy order"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569837706",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "amazing food definitely recommend"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14569947034",
+    "is_foodhub": true,
+    "persona": "unknown",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14572999765",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "East to use app"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14573540973",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": true,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "negative",
+        "severity": 1,
+        "evidence_quote": "Between cooking and delivered there should be a section saying on the way"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14573651025",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "No ridiculous fees and delivery charges"
+      },
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to use"
+      },
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "delicious food everytime"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14573790275",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14576026042",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "the homemade soup is amazing"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14576707715",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "app_store:14576730587",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "always deals Or discounts"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14577190764",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Food is always hot, tasty"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14579524272",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Great food"
+      },
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "early too"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14580433056",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Excellent food"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14580591842",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Nice food"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14580734545",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "awesome delicious banging burgers and perfect pizzas"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14580829391",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "great food"
+      },
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "speedy delivery too"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14581068421",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "never any issues"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14581109882",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "food is always gorgeous"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14581166229",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "Food was not good at all"
+      },
+      {
+        "aspect": "Refunds & Complaint Handling",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Full refund credited to my Foodhub account within minutes"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14581530793",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "always quick delivery"
+      }
+    ]
+  },
+  {
+    "review_id": "app_store:14582111312",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Amazing food"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0048911b-f67e-4808-82fd-ba8236507a3f",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Refunds & Complaint Handling",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Immediately after that I got an email from Foodhub saying that my money had been returned to my account. Excellent service."
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:00796ea7-d189-446c-a645-7559680c422a",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to order from great selection of place too"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:00a96c7c-acfc-4ecc-8ee9-b83030bfbec2",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "negative",
+        "severity": 1,
+        "evidence_quote": "Really needs to have all available restaurants listed on the home page ready for the sorting"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:00ba7e48-2279-42a4-b536-882cea9dceea",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:00d5cdb5-c595-4cea-81c9-666411c5a5b1",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "efficient and always on time"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:01250e7c-7243-4aa3-be1b-fbc97cdbfc86",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:016a3197-771f-41dd-8e0f-d71cead8289e",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to use . never had an issue"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:025af36f-05a2-49ce-a5fb-0c7bba112185",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:036ddf6d-e82d-407e-8fbf-5f019e7e4cbf",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Refunds & Complaint Handling",
+        "sentiment": "negative",
+        "severity": 3,
+        "evidence_quote": "won't let me take a photo of food when making a complaint. screen just goes white and doesn't take photo so you cant proceed with your complaint."
+      },
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "screen just goes white and doesn't take photo"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:03ab7a79-0d3c-48c9-aca0-0c6920f2fa6f",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:03e031c0-e01f-41dd-b807-f524a4c4259d",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:04074749-4573-420d-882e-f4a15762e696",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "such a simple, easy experience for ordering from local places"
+      },
+      {
+        "aspect": "Competitive Comparison",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "I was so fed up of using uber eats, with their terrible customer service and endless fees and overcharging."
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:05523ac9-dedb-47d8-ad1b-be13b1e8eca8",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "very easy to use and amend notes, easy to contact and updates via email"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:056b7f1b-772b-448b-9afc-392c6d708964",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Driver Conduct",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "unprofessional drivers Stamford Lincolnshire that leave food on the doorstep in the rain"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:05c6c156-88f8-43d5-ae41-81f8f4718041",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "much better than the website!"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:05c6d4d5-6729-4717-b86c-c11f07c54bf1",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "neutral",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:05d1741e-7940-470f-b25d-10e81f4ae3df",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:05dd7c8d-4317-4139-af26-2dc10b3b7cc3",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to order"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:063e665a-c588-4dae-83d1-d47e5400edf5",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:064e2fb2-5560-4740-89e7-9a0f638e7782",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "great food amazing staff"
+      },
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "always quick delivery"
+      },
+      {
+        "aspect": "Delivery Driver Conduct",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "amazing delivery drivers"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:069b7136-f737-4d1e-8ac6-0013886bfd43",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "moist"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:06a8f89e-420b-41ae-90a0-37fad8719ce3",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Competitive Comparison",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "we don't have just eat or deliveroo up here in Scotland where I live but foodhub seems to work just as well"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0750659e-a060-419b-ac6e-78a25f166da7",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Payments & Checkout",
+        "sentiment": "negative",
+        "severity": 3,
+        "evidence_quote": "always take payments more than once watch out"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:077d45ba-2780-4305-954d-ae93fb0044db",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "negative",
+        "severity": 3,
+        "evidence_quote": "wait around all night for an order that will never arrive"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0791f3c0-403f-488f-8cda-bf6143c4de19",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "quick and easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:07b91b0d-8f48-4582-b536-66f9b3ccad5e",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:083582ca-1e9e-4b50-8a96-20c96e286a3d",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "fairly easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0867430b-d4e5-4059-bf00-ae6451fb5f10",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:08b8b950-c84b-4b79-bd2d-c1098cb4beb9",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:095b5836-7997-41df-aff3-e9c0899c7589",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "always fast hot & tasty"
+      },
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "always fast"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:098034dc-935d-41dd-aa63-7065a7d5a86e",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "keeps on telling the restaurant I have put a time in when I haven't could be some kind of hack"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:09960079-96ba-4007-8475-2d0ffc6718fd",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Great food"
+      },
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:09deadcc-ea0f-4b38-9b2e-491292618aa6",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "everything was fab cookie dough with biscoffee caramel and m&ms with ice cream"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0a5c572f-0a00-4a1d-abc1-dca1d20832ec",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "neutral",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "very difficult to change address in location address bar. I had to google how to do this"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0a61f733-adeb-435f-a21c-ed4c2e93a4bc",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:0ab220d6-243d-4eab-8903-748749b27b67",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy way to order food"
+      },
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "cheaper than other apps"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0b00a1b3-979c-4734-ac6c-ba82ccf24bd1",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy"
+      },
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "cheaper than the others"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0b4075df-9676-433f-b4e1-b3b4acaafdcc",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "excellent service anf food always..highly recommended"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0b517326-130b-42d3-ab1d-8164f51ba9a0",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0b8664fc-0b5e-46f4-a2ed-fa4e7cdbcf8b",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:0bfb3c69-d85f-4064-a9b5-dba882af1fe8",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to operate around"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0c102c49-18aa-4a7b-b887-9e7dde65feea",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Delivery Time & Tracking",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "ordered food ot arrived"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0c382888-2854-4cdc-9404-eeaa5321876d",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "search a category and see if a restaurant exists. even if I search \"Pizza\" it returns no results. horrible experience"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0c8ca9a7-1ce0-486e-b500-3f6a16c441b7",
+    "is_foodhub": true,
+    "persona": "unknown",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:0caa20c2-42e9-4a52-8420-049706be050c",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:0cf4ea76-6ab7-4686-ace4-bf419119a900",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "so easy"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0d2d8210-d235-4d39-bc5b-0f22f77cc221",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy and it has my address"
+      },
+      {
+        "aspect": "Competitive Comparison",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "unlike just eat where apparently my address doesn't exist"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0ded58f5-7e35-4e91-91f6-ebc1778a8ace",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "delivery charges too high"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0e93ff72-3f34-42a6-9aaf-746f6bf7f0b9",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Competitive Comparison",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "I've come over from just eats (after using them for a few years now) because both mine and wifes payment started to error and not go through"
+      },
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "same order from same restaurant was £3 cheaper on foodhub"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:0ebc3b78-382b-4d54-a974-dec1dad5cc9b",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  }
+]

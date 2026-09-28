@@ -1,0 +1,53 @@
+# Foodhub UK Customer Feedback — pipeline config
+window:
+  months: 12          # collection window; per-source actual coverage is logged and may be shorter (see caveats)
+
+market:
+  country: GB
+  language: en
+
+sources:
+  app_store:
+    app_id: "1201845916"     # Foodhub - Online Takeaways
+    storefront: "gb"
+    persona: diner
+
+  google_play:
+    app_id: "com.t2s.foodhub"
+    country: "gb"
+    lang: "en"
+    persona: diner
+
+  # trustpilot: DROPPED from v1 — uk.trustpilot.com sits behind an active AWS WAF
+  # JS bot-challenge (not just ToS text; plain requests get a "Verifying your
+  # connection..." page, no content). Getting past it would mean deliberately
+  # defeating anti-bot protection, which we won't do. Revisit via the official
+  # Trustpilot Business API or a vendor export if this source is needed later.
+  # This also means the partner-voice appendix has no source in v1 (foodhub.com
+  # "Foodhub For Business" was Trustpilot too).
+  #
+  # reddit: DROPPED from v1 — the public .json endpoints now 403 regardless of
+  # user-agent; Reddit requires a registered OAuth app (reddit.com/prefs/apps),
+  # which needs login to the user's own account and didn't go through. Revisit
+  # if/when that app exists.
+
+scraping:
+  min_delay_seconds: 3
+  max_delay_seconds: 6
+  user_agent: "Mozilla/5.0 (compatible; FH-Feedback-Research/0.1; +internal research use)"
+
+paths:
+  raw_dir: "data/raw"
+  db_path: "data/processed/feedback.duckdb"
+  batches_dir: "data/batches"
+  tags_dir: "data/tags"
+  gold_path: "data/gold/gold_set.csv"
+  exports_dir: "exports"
+  reports_dir: "reports"
+
+tagging:
+  batch_size: 100
+  gold_set_size: 200
+
+embedding:
+  model: "BAAI/bge-small-en-v1.5"
