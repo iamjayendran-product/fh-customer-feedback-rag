@@ -1,0 +1,11 @@
+.venv/
+.git/
+__pycache__/
+*.pyc
+data/raw/
+data/batches/
+data/tags/
+data/gold/
+exports/
+reports/
+Claude outputs/

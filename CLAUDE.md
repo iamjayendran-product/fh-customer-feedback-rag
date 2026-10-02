@@ -46,7 +46,7 @@ python3 -m pip install -e .
 All raw scrape output is archived under `data/raw/` — re-run stages 2+ without
 re-scraping whenever the parser or taxonomy changes.
 
-## Feedback Radar — local chat app
+## FH ReviewIQ — local chat app
 
 A standalone conversational RAG app, separate from Claude Code itself:
 

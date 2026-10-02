@@ -1,51 +1,97 @@
 :root{
-  --bg:#eef1f0;
+  --bg:#f5efec;
   --surface:#ffffff;
-  --surface-2:#e4e8e6;
-  --ink:#141a18;
-  --ink-dim:#48534f;
-  --line:#c9d1ce;
-  --accent:#d1471f;
+  --surface-2:#ece2dd;
+  --ink:#1a1210;
+  --ink-dim:#5a4d48;
+  --line:#e0d2cb;
+  --accent:#d72926;
   --accent-ink:#ffffff;
   --pos:#1f7a4d;
   --neg:#b8371f;
   --neu:#8a6d1f;
-  --bubble-user:#141a18;
-  --bubble-user-ink:#f3efe9;
+  --bubble-user:#d72926;
+  --bubble-user-ink:#ffffff;
   --bubble-ai:#ffffff;
-  --shadow:0 1px 2px rgba(20,26,24,.06), 0 6px 20px rgba(20,26,24,.06);
+  --shadow:0 1px 2px rgba(26,18,16,.06), 0 6px 20px rgba(26,18,16,.06);
+  --glass-fill:rgba(255,255,255,.55);
+  --glass-fill-strong:rgba(255,255,255,.78);
+  --glass-border:rgba(255,255,255,.65);
+  --glass-shadow:0 1px 1px rgba(255,255,255,.6) inset, 0 10px 30px rgba(26,18,16,.12), 0 1px 2px rgba(26,18,16,.06);
+  /* Bubbles use a lighter pass than the rest of the UI so the ambient
+     background stays visible through the conversation, not just the chrome. */
+  --bubble-glass-fill:rgba(255,255,255,.30);
+  --bubble-glass-fill-strong:rgba(255,255,255,.48);
   color-scheme:light;
 }
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#12100e;
-    --surface:#1c1a17;
-    --surface-2:#252220;
-    --ink:#f1ece3;
-    --ink-dim:#a89e90;
-    --line:#38332e;
-    --accent:#ec6a3e;
-    --accent-ink:#12100e;
-    --pos:#4fbf85;
-    --neg:#ec6a5a;
-    --neu:#d9b45a;
-    --bubble-user:#ec6a3e;
-    --bubble-user-ink:#12100e;
-    --bubble-ai:#1c1a17;
-    --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 24px rgba(0,0,0,.35);
-    color-scheme:dark;
-  }
+/* Dark mode is opt-in via the header toggle (data-theme="dark" on <html>),
+   not the OS preference - default is always light. */
+:root[data-theme="dark"]{
+  --bg:#160f0e;
+  --surface:#211615;
+  --surface-2:#2b1c1a;
+  --ink:#f5ece9;
+  --ink-dim:#b39a94;
+  --line:#3d2725;
+  --accent:#f14b41;
+  --accent-ink:#ffffff;
+  --pos:#4fbf85;
+  --neg:#f1786d;
+  --neu:#d9b45a;
+  --bubble-user:#f14b41;
+  --bubble-user-ink:#ffffff;
+  --bubble-ai:#211615;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 24px rgba(0,0,0,.35);
+  --glass-fill:rgba(33,22,21,.55);
+  --glass-fill-strong:rgba(43,29,27,.78);
+  --glass-border:rgba(255,255,255,.10);
+  --glass-shadow:0 1px 1px rgba(255,255,255,.06) inset, 0 12px 34px rgba(0,0,0,.45), 0 1px 2px rgba(0,0,0,.3);
+  --bubble-glass-fill:rgba(33,22,21,.32);
+  --bubble-glass-fill-strong:rgba(43,29,27,.50);
+  color-scheme:dark;
 }
 
 *{box-sizing:border-box;}
-html,body{height:100%; margin:0;}
+html,body{height:100%; margin:0; overflow-x:hidden;}
 body{
+  position:relative;
   background:var(--bg);
   color:var(--ink);
-  font-family:"Source Sans 3", "Segoe UI", Arial, sans-serif;
+  /* The same system-font stack apple.com itself uses: resolves to real San
+     Francisco on macOS/iOS, and a sane native fallback everywhere else. SF
+     Pro isn't licensed for embedding as a downloadable web font outside
+     Apple's own platforms, so this (not a hosted .woff2) is the legitimate
+     way to match their typography. */
+  font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+}
+/* Soft, slowly-drifting colour underneath everything - this is what the
+   glass panels above are actually blurring/refracting. Without something
+   here the "liquid glass" surfaces above just look like flat translucency. */
+body::before{
+  content:"";
+  position:fixed;
+  inset:-10%;
+  z-index:0;
+  pointer-events:none;
+  background:
+    radial-gradient(38% 30% at 12% 8%, color-mix(in srgb, var(--accent) 34%, transparent), transparent 70%),
+    radial-gradient(30% 26% at 90% 15%, color-mix(in srgb, var(--accent) 20%, transparent), transparent 70%),
+    radial-gradient(38% 32% at 50% 100%, color-mix(in srgb, var(--pos) 14%, transparent), transparent 70%),
+    radial-gradient(28% 24% at 82% 85%, color-mix(in srgb, var(--neu) 16%, transparent), transparent 70%);
+  filter:blur(60px) saturate(160%);
+  animation:liquidDrift 30s ease-in-out infinite alternate;
+}
+@keyframes liquidDrift{
+  0%{ transform:translate3d(0,0,0) scale(1); }
+  100%{ transform:translate3d(-2.5%,2%,0) scale(1.06); }
+}
+@media (prefers-reduced-motion: reduce){
+  body::before{ animation:none; }
 }
 
 .app{
+  position:relative;
+  z-index:1;
   height:100%;
   display:flex;
   flex-direction:column;
@@ -56,18 +102,79 @@ body{
 }
 
 header.bar{
-  padding-block:16px 10px;
+  margin-top:10px;
+  padding:14px 18px 12px;
   display:flex;
   flex-direction:column;
   gap:4px;
-  border-bottom:1px solid var(--line);
+  border-radius:22px;
+  background:linear-gradient(180deg, var(--glass-fill-strong), var(--glass-fill));
+  backdrop-filter:blur(24px) saturate(180%);
+  -webkit-backdrop-filter:blur(24px) saturate(180%);
+  border:1px solid var(--glass-border);
+  box-shadow:var(--glass-shadow);
   flex-shrink:0;
 }
-.brand{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;}
+.bar-top{display:flex; align-items:flex-start; justify-content:space-between; gap:16px;}
+.brand{display:flex; align-items:flex-start; gap:10px; flex:1; min-width:0;}
+.brand .logo{
+  width:32px;
+  height:32px;
+  border-radius:8px;
+  flex-shrink:0;
+}
+.brand-text{display:flex; flex-direction:column; gap:2px; flex:1; min-width:0;}
+.tagline{
+  font-size:13px;
+  line-height:1.45;
+  color:color-mix(in srgb, var(--accent) 62%, var(--ink-dim) 38%);
+  letter-spacing:.01em;
+  text-align:left;
+  text-wrap:balance;
+}
+
+.theme-toggle{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  background:none;
+  border:none;
+  padding:4px;
+  cursor:pointer;
+  font:inherit;
+  font-size:12.5px;
+  color:var(--ink-dim);
+  flex-shrink:0;
+}
+.theme-toggle-track{
+  width:34px;
+  height:20px;
+  border-radius:999px;
+  background:var(--glass-fill);
+  backdrop-filter:blur(10px) saturate(160%);
+  -webkit-backdrop-filter:blur(10px) saturate(160%);
+  border:1px solid var(--glass-border);
+  position:relative;
+  flex-shrink:0;
+  transition:background .15s ease, border-color .15s ease;
+}
+.theme-toggle-thumb{
+  position:absolute;
+  top:1px;
+  left:1px;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:var(--ink-dim);
+  transition:transform .15s ease, background .15s ease;
+}
+.theme-toggle[aria-pressed="true"] .theme-toggle-track{background:var(--accent); border-color:var(--accent);}
+.theme-toggle[aria-pressed="true"] .theme-toggle-thumb{transform:translateX(14px); background:#ffffff;}
 .brand h1{
-  font-family:"Fraunces", Georgia, serif;
-  font-weight:600;
-  font-size:22px;
+  font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  font-weight:700;
+  font-size:21px;
+  line-height:1.15;
   letter-spacing:-0.01em;
   margin:0;
   color:var(--ink);
@@ -85,59 +192,245 @@ header.bar{
 main.thread{
   flex:1;
   overflow-y:auto;
-  padding-block:16px 8px;
+  overflow-x:hidden;
+  scrollbar-gutter:stable;
+  padding-block:16px 20px;
+  padding-right:12px;
   display:flex;
   flex-direction:column;
   gap:14px;
+  scrollbar-width:thin;
+  scrollbar-color:color-mix(in srgb, var(--ink) 22%, transparent) transparent;
+  scroll-behavior:smooth;
+}
+@media (prefers-reduced-motion: reduce){
+  main.thread{ scroll-behavior:auto; }
+}
+main.thread::-webkit-scrollbar{width:9px;}
+main.thread::-webkit-scrollbar-track{background:transparent;}
+main.thread::-webkit-scrollbar-thumb{
+  background-color:color-mix(in srgb, var(--ink) 22%, transparent);
+  border-radius:999px;
+  border:2px solid transparent;
+  background-clip:padding-box;
+}
+main.thread::-webkit-scrollbar-thumb:hover{
+  background-color:color-mix(in srgb, var(--ink) 34%, transparent);
+  background-clip:padding-box;
 }
 
-.empty{margin-top:6vh; display:flex; flex-direction:column; gap:16px;}
-.empty p{color:var(--ink-dim); font-size:14.5px; line-height:1.55; max-width:52ch;}
+.empty{
+  flex:1;
+  margin-top:6vh;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  position:relative;
+  z-index:1;
+}
+.empty p{color:var(--ink-dim); font-size:14.5px; line-height:1.55; max-width:52ch; position:relative; z-index:1;}
+.empty .chips{position:relative; z-index:1;}
+
+/* Food-icon watermarks scattered through the empty conversation area -
+   inside the actual content column (not the viewport margins) so they're
+   visible on any reasonably-sized window, not just very wide desktops. */
+.empty-decor{
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  color:var(--accent);
+  opacity:.19;
+}
+.empty-decor .fi{position:absolute; width:46px; height:46px;}
+/* Left column (odd) and right column (even), stepping down the full height
+   of the empty state so the icons read as a scattered field, not a border. */
+.empty-decor .fi-1 { left:0%;  top:1%;  width:52px; height:52px; transform:rotate(-12deg); }
+.empty-decor .fi-2 { right:0%; top:4%;  width:44px; height:44px; transform:rotate(11deg); }
+.empty-decor .fi-3 { left:10%; top:16%; width:40px; height:40px; transform:rotate(9deg); }
+.empty-decor .fi-4 { right:8%; top:18%; width:46px; height:46px; transform:rotate(-9deg); }
+.empty-decor .fi-5 { left:1%;  top:30%; width:44px; height:44px; transform:rotate(6deg); }
+.empty-decor .fi-6 { right:2%; top:32%; width:56px; height:56px; transform:rotate(-8deg); }
+.empty-decor .fi-7 { left:12%; top:44%; width:42px; height:42px; transform:rotate(-14deg); }
+.empty-decor .fi-8 { right:12%;top:46%; width:48px; height:48px; transform:rotate(13deg); }
+.empty-decor .fi-9 { left:0%;  top:58%; width:40px; height:40px; transform:rotate(8deg); }
+.empty-decor .fi-10{ right:0%; top:60%; width:44px; height:44px; transform:rotate(-11deg); }
+.empty-decor .fi-11{ left:9%;  top:72%; width:46px; height:46px; transform:rotate(-6deg); }
+.empty-decor .fi-12{ right:7%; top:74%; width:38px; height:38px; transform:rotate(10deg); }
+.empty-decor .fi-13{ left:2%;  top:87%; width:42px; height:42px; transform:rotate(12deg); }
+.empty-decor .fi-14{ right:3%; top:89%; width:40px; height:40px; transform:rotate(-10deg); }
+/* An inner pair of columns, filling the wide gap between the two edge
+   columns above and the text/chips that only occupy the upper-left. */
+.empty-decor .fi-15{ left:24%; top:38%; width:38px; height:38px; transform:rotate(-9deg); }
+.empty-decor .fi-16{ right:22%;top:52%; width:40px; height:40px; transform:rotate(12deg); }
+.empty-decor .fi-17{ left:28%; top:66%; width:44px; height:44px; transform:rotate(7deg); }
+.empty-decor .fi-18{ right:26%;top:80%; width:38px; height:38px; transform:rotate(-13deg); }
+
+@media (max-width:640px){
+  /* Not enough width in the text column itself for icons to avoid the copy -
+     keep just a sparser set along the top and bottom so the effect survives
+     without crowding the paragraph/chips. */
+  .empty-decor .fi-3, .empty-decor .fi-4, .empty-decor .fi-5, .empty-decor .fi-6,
+  .empty-decor .fi-7, .empty-decor .fi-8, .empty-decor .fi-9, .empty-decor .fi-10,
+  .empty-decor .fi-15, .empty-decor .fi-16, .empty-decor .fi-17, .empty-decor .fi-18{display:none;}
+}
 .chips{display:flex; flex-wrap:wrap; gap:8px;}
 .chip{
   font-size:13px;
-  padding:8px 12px;
-  border-radius:10px;
-  border:1px solid var(--line);
-  background:var(--surface);
+  padding:9px 14px;
+  border-radius:999px;
+  border:1px solid var(--glass-border);
+  background:var(--glass-fill);
+  backdrop-filter:blur(16px) saturate(160%);
+  -webkit-backdrop-filter:blur(16px) saturate(160%);
   color:var(--ink);
   cursor:pointer;
   text-align:left;
-  box-shadow:var(--shadow);
-  transition:transform .12s ease, border-color .12s ease;
+  box-shadow:var(--glass-shadow);
+  transition:transform .18s cubic-bezier(.2,.8,.2,1), border-color .18s ease;
 }
-.chip:hover{border-color:var(--accent); transform:translateY(-1px);}
-.chip:active{transform:translateY(0);}
+.chip:hover{border-color:var(--accent); transform:translateY(-2px);}
+.chip:active{transform:translateY(0) scale(.98);}
 
 .msg{display:flex; flex-direction:column; max-width:88%;}
 .msg.user{align-self:flex-end; align-items:flex-end;}
 .msg.ai{align-self:flex-start; align-items:flex-start;}
 .bubble{
-  padding:11px 14px;
-  border-radius:14px;
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:12px 16px;
+  border-radius:20px;
   font-size:14.5px;
   line-height:1.55;
   white-space:pre-wrap;
+  backdrop-filter:blur(28px) saturate(200%);
+  -webkit-backdrop-filter:blur(28px) saturate(200%);
+  animation:bubbleIn .45s cubic-bezier(.34,1.56,.64,1) both;
 }
-.msg.user .bubble{background:var(--bubble-user); color:var(--bubble-user-ink); border-bottom-right-radius:4px;}
+/* Specular highlight - the diagonal "sheen" that reads as glass rather
+   than flat translucent plastic. Clipped to the bubble by its overflow:hidden. */
+.bubble::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg, rgba(255,255,255,.55) 0%, rgba(255,255,255,0) 45%);
+  mix-blend-mode:overlay;
+  pointer-events:none;
+}
+.bubble::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  box-shadow:inset 0 1px 1px rgba(255,255,255,.45), inset 0 -1px 8px rgba(255,255,255,.06);
+  pointer-events:none;
+}
+@keyframes bubbleIn{
+  0%{ opacity:0; transform:translateY(10px) scale(.82); }
+  60%{ opacity:1; transform:translateY(-3px) scale(1.035); }
+  100%{ opacity:1; transform:translateY(0) scale(1); }
+}
+@media (prefers-reduced-motion: reduce){
+  .bubble{ animation:none; }
+}
+.msg.user .bubble{
+  background:linear-gradient(150deg, color-mix(in srgb, var(--accent) 94%, white 3%), color-mix(in srgb, var(--accent) 82%, transparent));
+  color:var(--bubble-user-ink);
+  border:1px solid color-mix(in srgb, var(--accent) 55%, white 35%);
+  border-bottom-right-radius:6px;
+  box-shadow:0 10px 28px color-mix(in srgb, var(--accent) 42%, transparent), inset 0 1px 1px rgba(255,255,255,.4);
+}
 .msg.ai .bubble{
-  background:var(--bubble-ai);
+  background:linear-gradient(160deg, var(--bubble-glass-fill-strong), var(--bubble-glass-fill));
   color:var(--ink);
-  border:1px solid var(--line);
-  border-bottom-left-radius:4px;
-  box-shadow:var(--shadow);
+  border:1px solid var(--glass-border);
+  border-bottom-left-radius:6px;
+  box-shadow:var(--glass-shadow);
 }
 .msg.ai .bubble.thinking{color:var(--ink-dim); font-style:italic;}
+/* Rendered-markdown content (see mdToHtml in app.js) - resets the bubble's
+   white-space:pre-wrap so block tags control spacing instead of literal
+   newlines in the source text doubling up with <p>/<br>. */
+.msg.ai .bubble .md{ white-space:normal; animation:mdFadeIn .28s ease both; }
+@keyframes mdFadeIn{
+  from{ opacity:0; transform:translateY(3px); }
+  to{ opacity:1; transform:translateY(0); }
+}
+.msg.ai .bubble .md p{ margin:0 0 10px; }
+.msg.ai .bubble .md p:last-child{ margin-bottom:0; }
+.msg.ai .bubble .md ul{ margin:6px 0 10px; padding-left:20px; list-style:none; }
+.msg.ai .bubble .md ul:last-child{ margin-bottom:0; }
+.msg.ai .bubble .md li{ margin-bottom:8px; padding-left:14px; position:relative; }
+.msg.ai .bubble .md li:last-child{ margin-bottom:0; }
+.msg.ai .bubble .md li::before{
+  content:"–";
+  position:absolute;
+  left:0;
+  color:var(--ink-dim);
+}
+.msg.ai .bubble .md strong{ font-weight:700; }
+.msg.ai .bubble .md table{
+  width:100%;
+  border-collapse:collapse;
+  margin:4px 0 8px;
+  font-size:13px;
+}
+.msg.ai .bubble .md table:last-child{ margin-bottom:0; }
+.msg.ai .bubble .md th,
+.msg.ai .bubble .md td{
+  border:1px solid var(--line);
+  padding:4px 8px;
+  text-align:left;
+  vertical-align:top;
+}
+.msg.ai .bubble .md th{
+  background:var(--surface-2);
+  font-weight:600;
+  white-space:nowrap;
+}
+/* Loading indicator: Lottie animation + rotating status phrase. */
+.msg.ai .bubble.thinking{font-style:normal;}
+.loader{display:inline-flex; align-items:center; gap:2px; height:22px;}
+.loader-anim{width:30px; height:30px; flex-shrink:0; margin:-4px 0 -4px -6px;}
+.loader-anim svg{display:block;}
+.loading-text{
+  color:var(--ink-dim);
+  font-style:italic;
+  opacity:1;
+  transition:opacity .16s ease;
+}
+.loading-text.fade-out{opacity:0;}
+@media (prefers-reduced-motion: reduce){
+  .loader-anim{display:none;}
+}
 
 .sources{margin-top:6px; font-size:12.5px;}
-.sources summary{cursor:pointer; color:var(--ink-dim); list-style:none;}
+.sources summary{cursor:pointer; color:var(--ink-dim); list-style:none; font-weight:600;}
 .sources summary::-webkit-details-marker{display:none;}
-.sources summary::before{content:"▸ ";}
+.sources summary::before{content:"▸ "; color:var(--ink-dim);}
 .sources[open] summary::before{content:"▾ ";}
-.source-row{display:flex; gap:8px; align-items:baseline; padding:6px 0; border-top:1px solid var(--line);}
-.source-row:first-of-type{border-top:none; margin-top:6px;}
-.source-id{font-family:"IBM Plex Mono", monospace; font-size:10.5px; color:var(--ink-dim); flex-shrink:0; white-space:nowrap;}
-.source-quote{color:var(--ink); font-size:12.5px; line-height:1.4;}
+.source-row{
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+  padding:10px 0;
+  border-top:1px solid var(--line);
+}
+.source-row:first-of-type{border-top:none; padding-top:8px;}
+.source-meta{display:flex; align-items:center; gap:7px; flex-wrap:wrap;}
+.source-badge{
+  font-size:10.5px;
+  font-weight:600;
+  color:var(--ink-dim);
+  background:var(--surface-2);
+  padding:2px 7px;
+  border-radius:5px;
+  letter-spacing:.02em;
+  flex-shrink:0;
+}
+.source-rating{font-size:11px; color:var(--neu); letter-spacing:1px; flex-shrink:0;}
+.source-date{font-size:11px; color:var(--ink-dim); margin-left:auto; flex-shrink:0;}
+.source-quote{color:var(--ink); font-size:12.5px; line-height:1.45; font-style:italic;}
 .sentiment-tag{
   display:inline-block;
   font-size:10px;
@@ -154,45 +447,149 @@ main.thread{
 
 .error-note{font-size:13px; color:var(--neg); padding:8px 0;}
 
+.composer-wrap{position:relative; flex-shrink:0;}
+
+.faq-popover{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:100%;
+  margin-bottom:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  padding:0 4px;
+  pointer-events:none;
+  opacity:0;
+  transform:translateY(8px);
+  transition:opacity .18s ease, transform .18s ease;
+}
+.faq-popover.open{
+  opacity:1;
+  transform:translateY(0);
+  pointer-events:auto;
+}
+.faq-chip{
+  font:inherit;
+  font-size:12.5px;
+  padding:7px 12px;
+  border-radius:999px;
+  border:1px solid var(--glass-border);
+  background:var(--glass-fill-strong);
+  backdrop-filter:blur(16px) saturate(160%);
+  -webkit-backdrop-filter:blur(16px) saturate(160%);
+  color:var(--ink);
+  cursor:pointer;
+  box-shadow:var(--glass-shadow);
+  opacity:0;
+  transform:translateY(6px) scale(.92);
+  transition:opacity .22s cubic-bezier(.2,.8,.2,1), transform .22s cubic-bezier(.2,.8,.2,1), border-color .15s ease;
+}
+.faq-popover.open .faq-chip{opacity:1; transform:translateY(0) scale(1);}
+.faq-chip:hover{border-color:var(--accent);}
+@media (prefers-reduced-motion: reduce){
+  .faq-popover, .faq-chip{transition:none;}
+}
+
 footer.composer{
-  flex-shrink:0;
-  padding-block:10px 16px;
-  border-top:1px solid var(--line);
+  margin-block:10px 14px;
+  padding:8px 8px 8px 16px;
+  border-radius:26px;
+  background:linear-gradient(180deg, var(--glass-fill-strong), var(--glass-fill));
+  backdrop-filter:blur(24px) saturate(180%);
+  -webkit-backdrop-filter:blur(24px) saturate(180%);
+  border:1px solid var(--glass-border);
+  box-shadow:var(--glass-shadow);
   display:flex;
   gap:8px;
   align-items:flex-end;
+  transition:box-shadow .15s ease, border-color .15s ease;
+}
+footer.composer:focus-within{
+  border-color:color-mix(in srgb, var(--accent) 55%, var(--glass-border));
+  box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent), var(--glass-shadow);
 }
 textarea#input{
   flex:1;
   resize:none;
-  border:1px solid var(--line);
-  border-radius:12px;
-  padding:10px 12px;
+  border:none;
+  border-radius:18px;
+  padding:12px 4px;
   font:inherit;
   font-size:14.5px;
-  background:var(--surface);
+  background:transparent;
   color:var(--ink);
   max-height:120px;
   min-height:42px;
 }
-textarea#input:focus{outline:2px solid var(--accent); outline-offset:1px;}
+textarea#input:focus{outline:none;}
 button#send{
-  background:var(--accent);
+  background:linear-gradient(150deg, color-mix(in srgb, var(--accent) 90%, white 4%), color-mix(in srgb, var(--accent) 75%, black 6%));
   color:var(--accent-ink);
-  border:none;
-  border-radius:12px;
-  padding:0 18px;
+  border:1px solid color-mix(in srgb, var(--accent) 45%, white 35%);
+  border-radius:19px;
+  padding:0 20px;
   height:42px;
   font-weight:600;
   font-size:14px;
   cursor:pointer;
   flex-shrink:0;
+  box-shadow:0 8px 20px color-mix(in srgb, var(--accent) 35%, transparent), inset 0 1px 1px rgba(255,255,255,.4);
+  transition:transform .15s cubic-bezier(.2,.8,.2,1), box-shadow .15s ease, opacity .15s ease;
 }
-button#send:disabled{opacity:.5; cursor:default;}
+button#send:hover:not(:disabled){transform:translateY(-1px);}
+button#send:active:not(:disabled){transform:translateY(0) scale(.97);}
+button#send:disabled{opacity:.5; cursor:default; box-shadow:none;}
 
 .unavailable{margin:auto; text-align:center; color:var(--ink-dim); font-size:14px; max-width:40ch; padding:24px;}
 
 @media (max-width:420px){
   .app{padding-inline:14px;}
   .brand h1{font-size:19px;}
+}
+
+/* Food-icon watermarks in the empty viewport margins either side of the
+   chat column - persistent regardless of conversation state (unlike the
+   ones inside .empty, which only exist pre-chat), since these margins stay
+   empty for as long as the window is wide enough to have any. */
+.side-decor{
+  position:fixed;
+  top:0;
+  bottom:0;
+  width:130px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items:center;
+  padding-block:24px;
+  pointer-events:none;
+  color:var(--accent);
+  opacity:.15;
+  z-index:0;
+}
+.side-decor-left{left:0;}
+.side-decor-right{right:0;}
+.side-decor svg{width:42px; height:42px; flex-shrink:0;}
+.side-decor svg:nth-child(odd){transform:rotate(-11deg);}
+.side-decor svg:nth-child(even){transform:rotate(10deg);}
+.side-decor svg:nth-child(3n){width:34px; height:34px;}
+.side-decor svg:nth-child(4n){width:52px; height:52px;}
+.side-decor-left svg:nth-child(3n){margin-left:16%;}
+.side-decor-left svg:nth-child(4n){margin-right:12%;}
+.side-decor-right svg:nth-child(3n){margin-right:16%;}
+.side-decor-right svg:nth-child(4n){margin-left:12%;}
+
+@media (max-width:1020px){
+  /* Below this there's no genuine empty margin left to decorate - the
+     column itself is nearly the full viewport width. */
+  .side-decor{display:none;}
+}
+
+/* Graceful fallback where backdrop-filter isn't supported - the glass tokens
+   are already semi-transparent, so without blur they'd show unblurred page
+   content through. Fall back to a solid surface instead. */
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  header.bar, footer.composer, .chip, .msg.ai .bubble, .theme-toggle-track{
+    background:var(--surface);
+  }
 }

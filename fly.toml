@@ -1,10 +1,10 @@
-# Feedback Radar — Fly.io app config. Deploy with: fly launch (first time)
+# FH ReviewIQ — Fly.io app config. Deploy with: fly launch (first time)
 # or fly deploy (subsequent updates), from the project root.
 #
 # Set secrets before the first deploy:
 #   fly secrets set ANTHROPIC_API_KEY=sk-ant-...
 #   fly secrets set FEEDBACK_RADAR_TOKEN=<a password you choose>
-app = "feedback-radar"   # change if that name's taken - fly will tell you
+app = "fh-reviewiq"   # change if that name's taken - fly will tell you
 primary_region = "lhr"    # London - closest to a UK-focused dataset; change freely
 
 [build]

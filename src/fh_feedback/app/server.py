@@ -1,4 +1,4 @@
-"""Chat server for Feedback Radar. Stdlib only (http.server) — serves the
+"""Chat server for FH ReviewIQ. Stdlib only (http.server) — serves the
 static chat UI and a streaming /api/chat endpoint backed by rag.stream_answer().
 
 Local:  python -m fh_feedback.app.server [--port 8765]
@@ -31,6 +31,7 @@ CONTENT_TYPES = {
     ".css": "text/css; charset=utf-8",
     ".js": "text/javascript; charset=utf-8",
     ".json": "application/json; charset=utf-8",
+    ".png": "image/png",
 }
 
 ACCESS_TOKEN = os.environ.get("FEEDBACK_RADAR_TOKEN", "").strip()
@@ -91,7 +92,7 @@ class Handler(BaseHTTPRequestHandler):
         path = self.path.split("?")[0]
         if path == "/":
             self._send_static("index.html")
-        elif path in ("/app.js", "/app.css"):
+        elif path in ("/app.js", "/app.css") or path.startswith("/img/"):
             self._send_static(path)
         elif path == "/api/config":
             # tells the frontend whether it needs to prompt for a token,
@@ -173,7 +174,7 @@ def run(port: int | None = None, open_browser: bool = True) -> None:
 
     server = ThreadingHTTPServer((bind_host, port), Handler)
     url = f"http://{'127.0.0.1' if bind_host == '0.0.0.0' else bind_host}:{port}"
-    log.info("Feedback Radar running at %s (bound %s:%s)", url, bind_host, port)
+    log.info("FH ReviewIQ running at %s (bound %s:%s)", url, bind_host, port)
     if open_browser and bind_host == "127.0.0.1":
         threading.Timer(0.6, lambda: webbrowser.open(url)).start()
     try:

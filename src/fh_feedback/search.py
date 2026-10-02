@@ -50,8 +50,7 @@ def _embed_query(query: str) -> np.ndarray:
     return vec
 
 
-def search(
-    query: str | None,
+def _build_filters(
     aspect: str | None = None,
     sentiment: str | None = None,
     persona: str | None = None,
@@ -60,10 +59,10 @@ def search(
     until: str | None = None,
     min_rating: int | None = None,
     max_rating: int | None = None,
-    top_k: int = 15,
-) -> list[dict]:
-    con = connect()
-
+) -> tuple[str, list[str], list]:
+    """Shared WHERE/JOIN builder for search() and count() - keeping these in
+    one place means a count is guaranteed to reflect exactly the same rows
+    search() ranks from, never a subtly different filter."""
     where = ["1=1"]
     params: list = []
     joins = ""
@@ -100,9 +99,56 @@ def search(
         where.append("r.rating <= ?")
         params.append(max_rating)
 
+    return joins, where, params
+
+
+def count(
+    aspect: str | None = None,
+    sentiment: str | None = None,
+    persona: str | None = None,
+    source: str | None = None,
+    since: str | None = None,
+    until: str | None = None,
+    min_rating: int | None = None,
+    max_rating: int | None = None,
+) -> int:
+    """Exact count of reviews matching the same filters search() accepts,
+    ignoring top_k truncation and semantic ranking entirely. search() only
+    ever returns its top_k by relevance score, which silently undercounts a
+    narrow slice (e.g. "how many negative reviews in September") - callers
+    that need a true total should use this instead of len(search(...))."""
+    con = connect()
+    joins, where, params = _build_filters(aspect, sentiment, persona, source, since, until, min_rating, max_rating)
+    sql = f"SELECT COUNT(DISTINCT r.review_id) FROM reviews r {joins} WHERE {' AND '.join(where)}"
+    n = con.execute(sql, params).fetchone()[0]
+    con.close()
+    return int(n)
+
+
+def search(
+    query: str | None,
+    aspect: str | None = None,
+    sentiment: str | None = None,
+    persona: str | None = None,
+    source: str | None = None,
+    since: str | None = None,
+    until: str | None = None,
+    min_rating: int | None = None,
+    max_rating: int | None = None,
+    top_k: int = 15,
+) -> list[dict]:
+    con = connect()
+
+    joins, where, params = _build_filters(aspect, sentiment, persona, source, since, until, min_rating, max_rating)
+
+    # Always available for display (e.g. the chat UI's Sources panel), even
+    # when no persona/sentiment filter already pulled tags in.
+    if "tags t" not in joins:
+        joins += " LEFT JOIN tags t ON t.review_id = r.review_id"
+
     sql = f"""
         SELECT DISTINCT r.review_id, r.source, r.source_url, r.rating, r.title, r.text,
-               r.created_at, r.embedding
+               r.created_at, t.overall_sentiment, r.embedding
         FROM reviews r
         {joins}
         WHERE {' AND '.join(where)}
@@ -110,7 +156,7 @@ def search(
     rows = con.execute(sql, params).fetchall()
     con.close()
 
-    cols = ["review_id", "source", "source_url", "rating", "title", "text", "created_at", "embedding"]
+    cols = ["review_id", "source", "source_url", "rating", "title", "text", "created_at", "overall_sentiment", "embedding"]
     hits = [dict(zip(cols, row)) for row in rows]
 
     if query:
