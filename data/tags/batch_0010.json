@@ -1,0 +1,161 @@
+[
+  {
+    "review_id": "google_play:11ca604d-b2f4-4875-a1ba-7449042d7fca",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "good variety of food"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:3352c685-b676-4f3d-832d-aea25f0fcaef",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "easy to use"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:439c12f3-0e58-4b21-9a97-26ebb99e17ee",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Food Quality & Safety",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "food :)"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:6ae9cab1-0b53-480f-9915-adb0b9c559cf",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "the supposed new improved app is now almost unusable"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:6be54b40-b90a-40c0-b05c-b35df98e5831",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Easy to use - just repeated a previous order"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:6d188cad-4648-47e9-8989-6fc029a124df",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "Makes ordering food a breeze without having to leave your hom"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:71997954-3ac1-47ce-adf9-0f4f33040775",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Pricing, Fees & Promotions",
+        "sentiment": "negative",
+        "severity": 1,
+        "evidence_quote": "never have any discount or freebies"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:73e53fae-1e5f-4a0c-8442-32fd2ebb2f0a",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:8a14bd31-1805-41c6-bb26-be91d281c7bd",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "negative",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "App Reliability & Usability",
+        "sentiment": "negative",
+        "severity": 2,
+        "evidence_quote": "everything is slower"
+      }
+    ]
+  },
+  {
+    "review_id": "google_play:a5605d8b-6120-49b5-b9cb-b4a3286ff676",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:bb02cdba-1d29-4624-801f-4e2b04bc787c",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": []
+  },
+  {
+    "review_id": "google_play:ed7cc1bd-0829-4493-ba54-ba35d315a167",
+    "is_foodhub": true,
+    "persona": "diner",
+    "overall_sentiment": "positive",
+    "star_text_mismatch": false,
+    "aspects": [
+      {
+        "aspect": "Restaurant Listings & Trust",
+        "sentiment": "positive",
+        "severity": null,
+        "evidence_quote": "seems to have better quality restaurants that sign up to them"
+      }
+    ]
+  }
+]
